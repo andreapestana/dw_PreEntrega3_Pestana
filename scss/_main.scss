@@ -6,8 +6,7 @@ main{
         text-align: center;
         text-decoration: underline;
     }
-    section{
-        .brands{
+    section.brands{
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -125,7 +124,7 @@ tr{
 }
     }
         }
-                }
+            
 .table-overflow{
     overflow: auto;
 }
