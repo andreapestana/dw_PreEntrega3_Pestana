@@ -25,7 +25,35 @@ main{
                  }
              }
         }
-
+        .ali-daticos-title{
+            text-align: center;
+            text-decoration: underline;
+            font-family: cursive;
+            font-size: 180%;
+        }
+.ali-daticos-text{
+    font-family: cursive;
+    border: solid 3px;
+    text-align: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div{ 
+        margin-bottom: 20px;
+    }
+}
+.nosotros_title{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: large;
+}
+    }
+    .nosotros_texto{
+        font-family: cursive;
+        border: solid 3px;
     }
     .catalogo{
         align-items: center;
@@ -82,5 +110,41 @@ main{
         }
         }
         
-        
+        .table-product{
+            border-collapse: collapse;
+    border: 1px solid;
+    td{
+tr{
+    border: 3px solid;
+    text-align: left;
+    height: 30px;
+    .item-product{
+        display: flex;
+        padding: 15px;
+    }
+}
+    }
+        }
                 }
+.table-overflow{
+    overflow: auto;
+}
+.title-font {
+    font-family: cursive;
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+
+    header {
+        align-items: unset;
+    }
+
+    nav.menu ul {
+        display: block;
+    }
+
+    header #imagen_principal img {
+        max-width: 339px;
+    }
+}
